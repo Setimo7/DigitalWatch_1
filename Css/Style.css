@@ -4,16 +4,51 @@
     padding: 0;
     font-family: 'Open Sans', sans-serif;
 }
-
 body{
     height: 100vh;
-    background: linear-gradient(200deg, rgb(189, 178, 184), rgb(0, 0, 0));
+    background: linear-gradient(200deg, rgb(189,178,184), rgb(0, 0, 0));
     display: flex;
     align-items: center;
     justify-content: center;
 }
+.container{
+    height: 350px;
+    max-width: 1000px;
+    margin: 8px auto;
+    background: transparent;
+    padding: 40px;
+    border-radius: 15px;
+}
 
-.watch {
+.Datetoday{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    width: 550px;
+    background: transparent;
+    border-radius: 15px;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.5);
+}
+.Date {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 15px;
+    height: 70px;
+    width: 520px;
+    background: rgba(0, 0, 0, 0.7);
+}
+.Datetoday span{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.Watch{
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -21,9 +56,9 @@ body{
     width: 550px;
     background: transparent;
     border-radius: 15px;
-    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.5);
 }
-.watch div{
+.Watch div{
     height: 175px;
     width: 165px;
     display: flex;
@@ -36,10 +71,10 @@ body{
     border-radius: 20px;
     letter-spacing: 5px;
 }
-.watch span{
+.Watch span{
     font-weight: bold;
     font-size: 60px;
 }
-.watch span#Time{
+.Watch span#Time{
     font-size: 15px;
 }
